@@ -1,0 +1,49 @@
+body {
+
+    margin: 0;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    background-color:antiquewhite;
+
+ 
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.wrapper {
+    
+    width: 800px;
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+
+.pri, .seg, .ter, .qua, .qui, .sex, .set, .oit, .non{
+    background-color: rgb(219, 113, 113);
+
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    color: white;
+    background-color: #da0404;
+    font-family:'Courier New', Courier, monospace;
+    cursor: pointer;
+    border: none;  
+    border-radius: 15px;
+}
+
+.pri:hover, .seg:hover, .ter:hover, .qua:hover, .qui:hover, .sex:hover, .set:hover, .oit:hover, .non:hover{
+    background-color: rgb(255, 0, 0);
+    
+}
