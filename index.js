@@ -35,6 +35,17 @@ for (var i = 0; i < numBtn; i++) {
                 break;
             case "Mãos Ensang. de Jesus":
                 var audio8 = new Audio("audios/mej.mp3")
+                console.log("hello word")
+                audio8.play()
+                break;
+            case "Evangelho - p1":
+                var audio8 = new Audio("audios/evangelho1.mp3")
+                console.log("hello word")
+                audio8.play()
+                break;
+            case "Evangelho - p2":
+                var audio8 = new Audio("audios/evangelho2.mp3")
+                console.log("hello word")
                 audio8.play()
                 break;
             default:
